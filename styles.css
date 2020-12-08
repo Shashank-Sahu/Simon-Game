@@ -21,7 +21,7 @@ body {
   margin: 25px;
   display: inline-block;
   height: 200px;
-  width: 30%;
+  width: 200px;
   border: 10px solid black;
   border-radius: 20%;
 }
@@ -51,4 +51,18 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+@media(max-width:1000px) {
+  h1 {
+    width: 100%;
+  }
+
+  .blue,
+  .green,
+  .yellow,
+  .red {
+    height: 200px;
+    width: 30%;
+  }
 }
