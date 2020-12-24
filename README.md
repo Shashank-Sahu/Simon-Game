@@ -5,11 +5,11 @@ When a new color is flashed, you have to push the buttons from the very beginnin
 
 ## Disclaimer
 
-The HTML and CSS code are not mine, this project is based on the Simon Game Module on an Udemy Bootcamp Course by Angela Yu, you may find the resources for the same on the course. Only the JS file is mine, though you can also find the solution on the course as well. However I have not checked the solution code so my solution may differ from the solution in the module.
+The HTML and CSS code are not fully mine, I have modified it a little bit, this project is based on the Simon Game Module on an Udemy Bootcamp Course by Angela Yu, you may find the resources for the same on the course. Only the JS file is mine, though you can also find the solution on the course as well. However I have not checked the solution code so my solution may differ from the solution in the module.
 
 ## How To Play
 
-Just tap on any key on your keyboard ( please be reasonable and try to press letters, numeric or character keys as I have not tried it may not start if press function keys of shift or whatever ). Once pressed a color will flash. Click on it to view the next flash/sequence. Once a new sequence is revealed you have to click on the buttons from the beginning of the pattern. When correct pattern is followed, level number will increase. If the pattern is done wrong at any step, Game will be Over. Press again on any key on keyboard to restart. (The Game Will not Work on mobile, changes may be added for this issue).
+Just tap on any key on your keyboard or click on "Start"( please be reasonable and try to press letters, numeric or character keys as I have not tried it, it may not start if you press function keys of shift or whatever ). Once pressed a color will flash. Click on it to view the next flash/sequence. Once a new sequence is revealed you have to click on the buttons from the beginning of the pattern. When correct pattern is followed, level number will increase. If the pattern is done wrong at any step, Game will be Over. Press again on any key on keyboard or refersh to restart.
 
 ## Cheat
 
