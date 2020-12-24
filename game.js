@@ -1,4 +1,4 @@
-let gameOver = false;
+let gameOver = true;
 const colors = ["red", "green", "yellow", "blue"];
 let playerPattern = [];
 let pattern = [];
@@ -68,7 +68,7 @@ function nextSeq() {
 function check(level) {
 
     if (playerPattern[level - 1] !== pattern[level - 1]) {
-        $("h1").text("GameOver Press any Key or tap anywhere to Restart");
+        $("h1").text("GameOver Press any Key or refresh to Restart");
         playerPattern = [];
         pattern = [];
         gameOver = true;
