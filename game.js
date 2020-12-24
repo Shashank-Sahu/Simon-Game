@@ -1,28 +1,27 @@
-let gameOver = false;
+let gameOver = true;
 const colors = ["red", "green", "yellow", "blue"];
 let playerPattern = [];
 let pattern = [];
 let currentLevel;
-let started = false;
 
 $(document).keypress(function () {
     gameOver = false;
     nextSeq();
 });
 
-$(document).click(function () {
-    gameOver = false;
-    if (!started) {
-        nextSeq();
-        started = true;
-    }
-})
 
 $(".btn").click(function (event) {
     ifPressed(event.currentTarget.id);
     makeSound(event.currentTarget.id);
     playerPattern.push(event.currentTarget.id);
     check(playerPattern.length);
+});
+
+$(".title").click(function (event) {
+    if (gameOver) {
+        gameOver = false;
+        nextSeq();
+    }
 });
 
 function makeSound(id) {
@@ -57,6 +56,8 @@ function getRandom() {
 }
 
 function nextSeq() {
+    if (!gameOver)
+        $(".title").remove();
     var currentColor = colors[getRandom()];
     $("#" + currentColor).fadeOut(100).fadeIn(100);
     makeSound(currentColor);
@@ -68,7 +69,7 @@ function nextSeq() {
 function check(level) {
 
     if (playerPattern[level - 1] !== pattern[level - 1]) {
-        $("h1").text("GameOver Press any Key or refresh to Restart");
+        $("h1").text("GameOver Press any Key or tap anywhere to Restart");
         playerPattern = [];
         pattern = [];
         gameOver = true;
