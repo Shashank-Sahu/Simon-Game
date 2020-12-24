@@ -1,4 +1,4 @@
-let gameOver = true;
+let gameOver = false;
 const colors = ["red", "green", "yellow", "blue"];
 let playerPattern = [];
 let pattern = [];
