@@ -3,6 +3,8 @@
 As the name suggests, you have to press the buttons you have been told to.
 When a new color is flashed, you have to push the buttons from the very beginning of the pattern. Failing to do so will result in game over.
 
+Liink - https://shashank-sahu.github.io/Simon-Game/
+
 ## Disclaimer
 
 The HTML and CSS code are not fully mine, I have modified it a little bit, this project is based on the Simon Game Module on an Udemy Bootcamp Course by Angela Yu, you may find the resources for the same on the course. Only the JS file is mine, though you can also find the solution on the course as well. However I have not checked the solution code so my solution may differ from the solution in the module.
